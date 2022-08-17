@@ -1,0 +1,56 @@
+body{
+  background-color: #FFEACA;
+}
+
+.puzzle{
+  width: 500px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.heading{
+  width: 500px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.hide{
+  display: none;
+}
+
+.container{
+  display: grid;
+  width: 500px;
+  grid-template-columns: repeat(5,100px);
+  margin : 10px auto 0px;
+}
+
+.footer{
+  width: 500px;
+  margin: 0px auto;
+  height: 70px;
+}
+
+.box{
+  height: 100px;
+  background-color: #9B72AA;
+  border: 1px solid black;
+
+}
+
+.num{
+  display: inline-block;
+  margin: 30px;
+}
+
+.empty-box{
+  background-color: white;
+}
+
+.btn{
+  background-color: yellow;
+  height: 50px;
+  width: 100px;
+  margin: 20px 0px;
+  font-size: 2rem;
+}
